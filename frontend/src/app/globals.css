@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --title-color : #00642A;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./images/background.png") no-repeat center center fixed;
+  background-size: cover;
+}

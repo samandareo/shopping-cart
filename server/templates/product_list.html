@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #00642A;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #00642A;
+            color: white;
+        }
+        img {
+            max-width: 100px;
+            border-radius: 4px;
+        }
+        a, button {
+            color: white;
+            background-color: #00642A;
+            padding: 4px 8px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .actions {
+            text-align: center;
+        }
+        .actions a, .actions button {
+            margin: 4px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Products</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Tax</th>
+                    <th>Quantity</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in products %}
+                <tr>
+                    <td>{{ product.product_name }}</td>
+                    <td>${{ product.product_price }}</td>
+                    <td>{{ product.tax }}%</td>
+                    <td>{{ product.quantity }}</td>
+                    <td><img src="{{ url_for('static', filename=product.product_image) }}" alt="{{ product.product_name }}"></td>
+                    <td class="actions">
+                        <form action="/admin/update_product/{{ product.id }}" method="get" style="display:inline;" enctype="multipart/form-data">
+                            <button type="submit">Update</button>
+                        </form>
+                        <form action="/admin/delete_product/{{ product.id }}" method="post" style="display:inline;" enctype="multipart/form-data">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

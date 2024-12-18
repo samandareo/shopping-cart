@@ -1,0 +1,42 @@
+/* [project]/src/components/CartCard.module.css [app-client] (css) */
+.CartCard-module__xHPMiW__cart-card {
+  margin: 30px auto;
+  border-radius: 25px;
+  background-color: #fff;
+  height: fit-content;
+  max-width: 400px;
+}
+
+.CartCard-module__xHPMiW__card-body {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.CartCard-module__xHPMiW__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #00642a;
+}
+
+.CartCard-module__xHPMiW__card-footer {
+  background-color: #26ad5f;
+  color: #fff;
+  border-radius: 0 0 25px 25px;
+  padding: 15px 25px;
+}
+
+.CartCard-module__xHPMiW__card-control-btn-style {
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  background: #26ad5f;
+  box-shadow: 0 4px 4px #0000001a;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+/*# sourceMappingURL=src_components_CartCard_module_b52d8e.css.map*/

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/products.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"cart-add-btn\": \"products-module__hZJ-iq__cart-add-btn\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/sreo4K/Desktop/mid-app-dev/frontend/src/components/ProductsContainer.tsx"],"sourcesContent":["\"use client\";\r\nimport Image from \"next/image\";\r\nimport \"@/components/products.module.css\"\r\n\r\nexport default function ProductsContainer() {\r\n    return (\r\n        <div className=\"products-container\">\r\n            <div className=\"container-head\">\r\n                <h1>GROCERY STORE</h1>\r\n                <button className=\"cart-add-btn\">\r\n                    <Image\r\n                        src=\"/shopping-cart.svg\"\r\n                        alt=\"cart\"\r\n                        width={30}\r\n                        height={30}\r\n                    />\r\n                </button>\r\n            </div>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAI,WAAU;;8BACX,8OAAC;8BAAG;;;;;;8BACJ,8OAAC;oBAAO,WAAU;8BACd,cAAA,8OAAC,6HAAA,CAAA,UAAK;wBACF,KAAI;wBACJ,KAAI;wBACJ,OAAO;wBACP,QAAQ;;;;;;;;;;;;;;;;;;;;;;AAMhC"}},
+    {"offset": {"line": 75, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/ProductsContainer.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"card-btn-style\": \"ProductsContainer-module__0g925q__card-btn-style\",\n  \"card-control-btn-style\": \"ProductsContainer-module__0g925q__card-control-btn-style\",\n  \"cart-add-btn\": \"ProductsContainer-module__0g925q__cart-add-btn\",\n  \"product-card\": \"ProductsContainer-module__0g925q__product-card\",\n  \"products-container\": \"ProductsContainer-module__0g925q__products-container\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/sreo4K/Desktop/mid-app-dev/frontend/src/app/images/add.svg.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 24, height: 24, blurDataURL: null, blurWidth: 0, blurHeight: 0 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,2HAAA,CAAA,UAAG;IAAE,OAAO;IAAI,QAAQ;IAAI,aAAa;IAAM,WAAW;IAAG,YAAY;AAAE"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/sreo4K/Desktop/mid-app-dev/frontend/src/app/images/remove.svg.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 24, height: 24, blurDataURL: null, blurWidth: 0, blurHeight: 0 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,8HAAA,CAAA,UAAG;IAAE,OAAO;IAAI,QAAQ;IAAI,aAAa;IAAM,WAAW;IAAG,YAAY;AAAE"}},
+    {"offset": {"line": 67, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

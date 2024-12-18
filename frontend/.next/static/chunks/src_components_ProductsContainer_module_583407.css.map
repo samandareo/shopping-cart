@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/sreo4K/Desktop/mid-app-dev/frontend/src/components/ProductsContainer.module.css"],"sourcesContent":["\r\n\r\n.cart-add-btn {\r\n    background-color: rgba(0, 100, 42, 0.9);\r\n    padding: 8px;\r\n    border-radius: 5px;\r\n    color: white;\r\n    cursor: pointer;\r\n}\r\n\r\n.products-container {\r\n    max-width: 1000px;\r\n    margin: 0 auto;\r\n    padding: 20px 30px;\r\n    border-radius: 25px;\r\n    background: linear-gradient(180deg, rgba(61, 255, 143, 0.85) 8.98%, #26AD5F 87.65%);\r\n    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n}"],"names":[],"mappings":"AAEA;;;;;;;;AAQA"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
